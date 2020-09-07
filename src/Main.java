@@ -9,18 +9,6 @@ public class Main {
 		int sk=0;
 		int i=0;
 		boolean isPrimary= isPrimary(n);
-		for(int i=0;i<n;i++)
-		{	
-			if(sk%2==0||sk%3==0||sk%5==0)
-			{
-				//System.out.print(sk+",");
-			}
-			else
-			{
-				System.out.print(sk+",");
-			}
-			sk++;
-		}
 		
 	}
 	public static boolean isPrimary(int n)
